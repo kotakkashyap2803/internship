@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Buy Now</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="BuyNowNew1.css">
+</head>
+<body>
+	<ul class="nav-bar">
+		<li><h2>XYZ.com</h2></li>
+		<li><a href="logout.php"> LogOut </a></li>
+		<li><button onclick="location.href='Dashboard.html'"> Home </button></li>
+		<li><button class="contact-us-btn" onclick="location.href='ContactUs.html'">ContactUs</button></li>
+	</ul>
+	<div class="container">
+		<div class="payment-method">
+			<h2>Select A Payment Method</h2>
+			<div class="select-pay-method">
+				<h3>Another Payment Method</h3>
+				<hr>
+				<input type="radio" name="debit-credit">
+				<label for="debit-credit">Add debit/credit/ATM card</label><br>
+				<input type="radio" name="net-banking">
+				<label for="net-banking">Net Banking</label><br>
+				<select id="options-net-banking">
+					<option id="1">Axis Bank</option>
+					<option id="2">HDFC Bank</option>
+					<option id="3">Bank of Baroda</option>
+				</select><br>
+				<input type="radio" name="other-upi">
+				<label for="other-upi">Other Upi Apps</label><br>
+				<input type="radio" name="cash-on">
+				<label for="cash-on">Cash On Delivery</label><br>
+				<button id="continue">Continue</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

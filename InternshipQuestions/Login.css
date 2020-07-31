@@ -1,0 +1,70 @@
+*{
+	font-family: "Lucida Console", Courier, monospace;
+}
+body{
+	background-color: white;
+	text
+}
+.containerA{
+	border: 2px;
+	background-color: orange;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	margin-top: 110px;
+	margin-left: 200px;
+	width: 350px;
+	height: 450px;
+}
+.containerB{
+	border: 2px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-top: -450px;
+	margin-left: 550px;
+	background-image: url("unnamed.jpg");
+	background-size: cover;
+	width: 650px;
+	height: 450px;
+}
+.form-group{
+	padding-top: 130px;
+}
+.link-style p{
+	color: white;
+	font-size: 16px;
+}
+.link-style a{
+	color: black;
+	text-decoration: none;
+}
+label{
+	margin-left: -110px;
+	font-size: 18px;
+	color: white;
+}
+input{
+	margin-top: 9px;
+	width: 200px;
+	height: 30px;
+	border: none;
+	background: transparent;
+	border-bottom: 2px solid white;
+	font-size: 16px;
+	outline: none;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: white;
+}
+button{
+	color: white;
+	margin-top: 10px;
+	cursor: pointer;
+	width: 100px;
+	height: 40px;
+	background: transparent;
+	border-color: white;
+	border-radius: 12px;
+	font-size: 18px;
+	outline: none;
+	border: 2px solid white;
+}

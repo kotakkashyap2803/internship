@@ -1,0 +1,104 @@
+*{
+	font-family: "Lucida Console", Courier, monospace;
+}
+.nav-bar{
+	list-style-type: none;
+	background-color: orange;
+	overflow: hidden;
+	color: white;
+}
+.nav-bar li h2{
+}
+.nav-bar li a{
+	font-size: 20px;
+	margin-top: -43px;
+	margin-right: 20px;
+	float: right;
+	background: none;
+	outline: none;
+	color: white;
+	text-decoration: none;
+}
+.nav-bar li button{
+	float: right;
+	cursor: pointer;
+	margin-top: -48px;
+	background-color: orange;
+	outline: none;
+	border: 2px solid orange;
+	color: white;
+	margin-right: 90px;
+	font-size: 20px;
+	width: 100px;
+	height: 30px; 
+}
+.nav-bar .contact-us-btn{
+	float: right;
+	cursor: pointer;
+	margin-top: -48px;
+	background-color: orange;
+	outline: none;
+	border: 2px solid orange;
+	color: white;
+	margin-right: 190px;
+	font-size: 20px;
+	width: 100px;
+	height: 30px; 
+}
+.show-image{
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 500px;
+}
+.show-image img{
+	width: 500px;
+}
+.other-details{
+	width: 700px;
+	height: 500px;
+	margin-top: -505px;
+	margin-left: 600px;
+}
+.other-details h3{
+	float: left;
+	margin-top: -50px;
+	padding-left: 10px;
+}
+.other-details label{
+	font-size: 25px;
+	float: left;
+	padding-left: 10px;
+}
+.buy-panel{
+	background-color: lightgrey;
+	border-radius: 20px;
+	margin-top: 100px;
+	height: 350px;
+	width: 300px;
+	margin-left: 350px;
+}
+.buy-panel button{
+	margin-top: 30px;
+	margin-left: 50px;
+	width: 200px;
+	height: 50px;
+	background: orange;
+	color: white;
+	border-color: orange;
+	outline: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.buy-panel select{
+	width: 100px;
+	height: 30px;
+	margin-left: 95px;
+	margin-top: 10px;
+	border-radius: 8px;
+	box-shadow: none;
+	font-size: 16px; 
+}
+.buy-panel select option{
+	font-size: 16px;
+}

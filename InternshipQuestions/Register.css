@@ -1,0 +1,61 @@
+*{
+	font-family: "Lucida Console", Courier, monospace;
+	/*display: inline-block;*/
+}
+body{
+	background-color: orange;
+}
+.container{
+	width: 900px;
+	height: 500px;
+	margin-top: 70px;
+	margin-left: 250px;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+.same-line{
+	margin-top: 30px;
+	width: 900px;
+	text-align: center;
+	display: flex;
+}
+.same-row-style{
+	display: flex;
+	flex-direction: row;
+}
+.same-row-style input{
+	margin-top: 20px;
+	margin-left: -100px
+}
+label{
+	margin-left: 150px;
+	font-size: 18px;
+	color: white;
+}
+input{
+	color: white;
+	border: none;
+	border-bottom: 2px solid white;
+	background: transparent;
+	font-size: 16;
+	margin-left: 180px;
+	margin-top: 8px;
+	width: 200px;
+	height: 30px;
+	outline: none;
+}
+::placeholder{
+	color: white;
+}
+button{
+	margin-top: 20px;
+	margin-left: 400px;
+	font-size: 18;
+	width: 100px;
+	height: 40px;
+	border: 2px solid white;
+	border-radius: 8px;
+	outline: none;
+	color: white;
+	background: transparent;
+}

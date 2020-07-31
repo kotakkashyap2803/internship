@@ -1,0 +1,157 @@
+*{
+	font-family: "Lucida Console", Courier, monospace;
+}
+.container{
+	display: flex;
+	border-right: 2px;
+}
+.side-bar{
+	border-right: 2px solid;
+	padding-right: 3px;
+}
+.brand-content{
+	width: 250px;
+	font-size: 18px;
+}
+.brand-content ul{
+	margin-top: 11px;
+	list-style: none;
+}
+.brand-content ul li{
+		padding: 8px 10px;
+}
+.brand-content ul button{
+	background: none;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid blue;
+	color:blue;
+	cursor: pointer;
+}
+.price-content input{
+	width: 50px;
+	height: 20px;
+	margin-left: 5px;
+}
+.price-content button{
+	height: 27px;
+}
+.price-content ul{
+	list-style: none;
+}
+.price-content ul li{
+	padding: 8px 10px;
+}
+.price-content a{
+	text-decoration: none;	
+	color: black;
+	cursor: pointer;
+}
+.card{
+	display: flex;
+	border-bottom: 2px solid black;
+	height: 225px;
+	margin-bottom: 10px;
+}
+.search-content{
+	margin-left: 360px;
+	margin-bottom: 50px;
+}
+.search-content input{
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	font-size: 18px;
+	width: 500px;
+	height: 40px;
+	outline: none;
+	border: 2px solid;
+	border-color: orange;
+}
+.search-content button{
+	width: 100px;
+	height: 46px;
+	border: 2px solid;
+	outline: none;
+	color: white;
+	border-color: orange;
+	font-size: 16px;
+	background: orange;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	margin-left: -10px;
+	border-left: none; 
+	cursor: pointer;
+}
+::placeholder{
+	color: black;
+	padding-left: 10px;
+}
+.nav-bar{
+	background-color: orange;
+	list-style-type: none;
+	overflow: hidden;
+	color: white;
+}
+.nav-bar li{
+}
+.nav-bar li a{
+	margin-top: -45px;
+	margin-right: 10px;
+	font-size: 20px;
+	color: white;
+	display: block;
+	float: right;
+	text-decoration: none;
+}
+.nav-bar li button{
+	float: right;
+	cursor: pointer;
+	margin-top: -48px;
+	background-color: orange;
+	outline: none;
+	border: 2px solid orange;
+	color: white;
+	margin-right: 90px;
+	font-size: 20px;
+	width: 100px;
+	height: 30px; 
+}
+.nav-bar .contact-us-btn{
+	float: right;
+	cursor: pointer;
+	margin-top: -48px;
+	background-color: orange;
+	outline: none;
+	border: 2px solid orange;
+	color: white;
+	margin-right: 200px;
+	font-size: 20px;
+	width: 100px;
+	height: 30px; 
+}
+nav h2{
+	padding: 20px;
+	/*float: right;*/
+}
+.img-wraper img{
+	margin-left: 10px;
+	margin-top: 10px;
+	height: 200px;
+}
+.cards button{
+	background: none;
+	border: none;
+	outline: none;
+}
+.content p{
+	font-size: 40px;
+	margin-left: -550px;
+	padding-top: 50px;
+}
+.content label{
+	float: left;
+	font-size: 25px;
+}
+.content{
+	padding: 18px 20px;
+}

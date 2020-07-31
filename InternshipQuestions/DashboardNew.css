@@ -1,0 +1,96 @@
+*{
+	font-family: "Lucida Console", Courier, monospace;
+}
+.container{
+	background-image: url("dashboard-image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nav-bar{
+	background-color: orange;
+	list-style: none;
+	color: white;
+	height: 65px;
+}
+.nav-bar li h2{
+	padding: 20px;
+	padding-left: 5px;
+}
+.nav-bar li a{
+	text-decoration: none;
+	color: white;
+	float: right;
+	margin-top: -62px;
+	font-size: 20px;
+	margin-right: 20px;
+}
+.nav-bar li button{
+	background-color: orange;
+	border: 2px solid orange;
+	outline: none;
+	float: right;
+	color: white;
+	font-size: 20px;
+	margin-top: -65px;
+	margin-right: 110px;
+	cursor: pointer;
+}
+.image-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.image-container img{
+	width: 200px;
+	margin-left: 50px;
+}
+.search-content{
+	margin-left: 360px;
+	margin-bottom: 10px;
+}
+.search-content input{
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	font-size: 18px;
+	width: 500px;
+	height: 40px;
+	outline: none;
+	border: 2px solid;
+	border-color: orange;
+}
+.search-content button{
+	width: 100px;
+	height: 46px;
+	border: 2px solid;
+	outline: none;
+	color: white;
+	border-color: orange;
+	font-size: 16px;
+	background: orange;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	margin-left: -10px;
+	border-left: none; 
+	cursor: pointer;
+}
+.card{
+	border-radius: 30px;
+	margin-top: 150px;
+	margin-left: 10px;
+	width: 300px;
+	border: 2px solid black;
+	margin-right: 5px; 
+	height: 320px;
+	background-color: white;
+}
+.card h2{
+	text-align: center;
+}
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 30px;
+}
+.cards a{
+	padding-top: 10px;
+	margin-left: 100px;
+}
